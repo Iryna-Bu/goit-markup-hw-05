@@ -48,7 +48,7 @@
     <section class="hero"> 
         <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="link-registration" href="Заказать-услугу">Заказать услугу</button>
+            <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
         </div>
     </section>
     
@@ -388,13 +388,13 @@
         </div>  
     </footer>
 
-    <button data-modal-open>Заказать услугу</button>
+    <!--<button data-modal-open>Заказать услугу</button> -->
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button data-modal-close>
-                <svg class="btn-icon" width="30px" height="30px">
-                    <use href="./img/symbol-defs.svg#logo-1"></use>
+                <svg class="btn-icon">
+                    <use href="./img/close-sign.svg"></use>
                 </svg>
             </button>
         </div>
