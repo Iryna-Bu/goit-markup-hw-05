@@ -777,24 +777,21 @@ p {
     border-radius: 4px;
 }
 
-.btn-icon { 
+.btn-icon {
     width: 11px;
     height: 11px;
-    padding: 10px;
     
     fill: var(--primary-text-color);
 }
 
 .close-btn {
     position: absolute;
-    top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
+    padding: 0;
     background-color: var(--primary-white-color);
-    box-shadow: 0px 1px 3px var(--close-button-shadow);
     border-radius: 50px;
-   
     border: 1px solid var(--button-border);
 }
     
