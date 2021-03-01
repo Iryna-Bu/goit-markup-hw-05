@@ -777,7 +777,7 @@ p {
     border-radius: 4px;
 }
 
-.btn-icon {
+.close-icon {
     width: 11px;
     height: 11px;
     
@@ -786,6 +786,9 @@ p {
 
 .close-btn {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 8px;
     right: 8px;
     width: 30px;
